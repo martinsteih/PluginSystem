@@ -5,6 +5,5 @@ set(CMAKE_CXX_STANDARD 17)
 
 project( "PluginRuntime" "CXX")
 
-add_subdirectory( "RtRuntime" )
 add_subdirectory( "Plugin" )
 add_subdirectory( "Runtime" )

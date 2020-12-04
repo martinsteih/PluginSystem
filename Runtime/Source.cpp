@@ -22,7 +22,8 @@ class Runtime{
             plugin->Run();
             if(plugin->OutputCycle)
                 plugin->OutputCycle();
-            std::this_thread::sleep_for(2s);
+            std::cout << std::endl;
+            std::this_thread::sleep_for(1s);
         }
     }
 
